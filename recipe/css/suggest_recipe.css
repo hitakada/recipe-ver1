@@ -1,0 +1,58 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    overflow: auto;
+}
+
+body {
+    background-image: url(../src/backimg1.jpg);
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+h1,
+#search2 {
+    text-align: center;
+}
+
+#search1 {
+    position: fixed;
+    top: 200px;
+    left: 40px;
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+}
+
+.form1 {
+    background-color: white;
+    width: 1000px;
+    margin: 0 100px 0 300px;
+    border: 1px solid;
+    border-color: #FFFF00;
+    padding: 150px 10px 10px 10px;
+}
+
+#submit1 {
+    position: fixed;
+    top: 130px;
+    left: 40px;
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+}
+
+#selectlist {
+    position: fixed;
+    top: 270px;
+    left: 40px;
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+}
